@@ -32,7 +32,7 @@ img {
   border-radius: 50%;
   width: 500px;
   height: 500px;
-  background: url(/img/moon.jpg);
+  background: url(/Space_Web/img/moon.jpg);
   background-repeat: repeat-x;
   background-size: cover;
   animation: moon-rotation 90s linear infinite;
@@ -790,14 +790,9 @@ img {
 
 
 .wrapper {
-  display: grid;
-  grid-template-columns: repeat( auto-fit, 1fr );
-  grid-template-rows: auto;
-  grid-template-areas:
-    "menu menu menu"
-    ". card .";
+  
  
-  min-height: 100vh;
+ 
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -816,7 +811,7 @@ img {
   position: relative;
   font-size: 10px;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 40px 20px;
   font-size: var(--fontMedium);
   font-weight: var(--fontRegular);
   text-transform: uppercase;
@@ -1124,6 +1119,9 @@ img {
 #solar{
   padding: 200px 0;
 }
+.solar_sys{
+  margin-top: -80px;
+}
 .solar_sys h1{
   color: #fff;
   font-family: "Lexend Giga", serif;
@@ -1194,7 +1192,7 @@ svg {
 	}
 }
 #story{
-  padding: 200px 0;
+  padding: 155px 0;
 }
 .story_head h1 {
   color: #fff;
@@ -1219,4 +1217,487 @@ svg {
 .story_img{
   display: flex;
   justify-content: space-between;
+}
+.img_info{
+  position: relative;
+}
+
+.img_info h1 {
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  color: #fff;
+  font-family: "Lexend Giga", serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.img_info i {
+  position: absolute;
+  top: 32px;
+  left: 25px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+.img_info h2 {
+  position: absolute;
+  top: 301px;
+  left: 25px;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Lexend Giga", serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+.img_info h3 {
+  position: absolute;
+  top: 325px;
+  left: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Lexend Giga", serif;
+  line-height: 26px;
+  cursor: pointer;
+}
+.img_info2{
+  position: relative;
+}
+.img_info2 h1{
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  color: #fff;
+  font-family: "Lexend Giga", serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+.img_info2 i{
+  position: absolute;
+  top: 32px;
+  left: 25px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+}
+.img_info2 h2{
+  position: absolute;
+  top: 301px;
+  left: 25px;
+  color: #fff;
+  font-size: 11px;
+  font-family: "Lexend Giga", serif;
+  font-weight: 300;
+  cursor: pointer;
+}
+.img_info2 h3 {
+  position: absolute;
+  top: 325px;
+  left: 25px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Lexend Giga", serif;
+  line-height: 26px;
+  cursor: pointer;
+}
+.article{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.one img {
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.one h1 {
+  font-family: "Lexend Giga", serif;
+  font-weight: 300;
+  cursor: pointer;
+  color: #fff;
+  font-size: 11px;
+  margin-top: -80px;
+  margin-left: 90px;
+}
+.one h2 {
+  font-family: "Lexend Giga", serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  max-width: 385px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.one p {
+  font-family: "Lexend Giga", serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  font-size: 11px;
+  margin-left: 92px;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.two img {
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 15px;
+
+}
+.two h1 {
+  font-family: "Lexend Giga", serif;
+  font-weight: 300;
+  cursor: pointer;
+  color: #fff;
+  font-size: 11px;
+  margin-top: -80px;
+  margin-left: 90px;
+}
+.two h2{
+  font-family: "Lexend Giga", serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  max-width: 385px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.two p {
+  font-family: "Lexend Giga", serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  font-size: 11px;
+  margin-left: 92px;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.three img {
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: 15px;
+
+}
+.three h1 {
+  font-family: "Lexend Giga", serif;
+  font-weight: 300;
+  cursor: pointer;
+  color: #fff;
+  font-size: 11px;
+  margin-top: -80px;
+  margin-left: 90px;
+}
+.three h2{
+  font-family: "Lexend Giga", serif;
+  font-weight: 700;
+  cursor: pointer;
+  color: #fff;
+  font-size: 12px;
+  max-width: 385px;
+  margin-left: 90px;
+  margin-top: 10px;
+}
+.three p {
+  font-family: "Lexend Giga", serif;
+  font-weight: 600;
+  cursor: pointer;
+  color: #fff;
+  font-size: 11px;
+  margin-left: 92px;
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+
+
+#wrap
+{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto 0 auto;
+
+}
+
+#lightings
+{
+	bottom: -60px;
+	position: absolute;
+	width: 100%;
+}
+
+
+
+#one
+{
+	/*animation*/
+	-webkit-animation: one 5s ease-in-out infinite alternate;
+	-moz-animation: one 5s ease-in-out infinite alternate;
+	-ms-animation: one 5s ease-in-out infinite alternate;
+	-o-animation: one 5s ease-in-out infinite alternate;
+	animation: one 5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+one { from {
+-webkit-box-shadow: 0 0 250px 20px #473C78;
+}
+
+to { -webkit-box-shadow: 0 0 100px 15px #F72A3B; }
+}
+@-moz-keyframes 
+one { from {
+-moz-box-shadow: 0 0 250px 20px #473C78;
+}
+
+to { -moz-box-shadow: 0 0 100px 15px #F72A3B; }
+}
+@-o-keyframes 
+one { from {
+-o-box-shadow: 0 0 250px 20px #473C78;
+}
+
+to { -o-box-shadow: 0 0 100px 15px #F72A3B; }
+}
+
+@keyframes 
+one { from {
+box-shadow: 0 0 250px 20px #473C78;
+}
+
+to {box-shadow: 0 0 100px 15px #F72A3B; }
+}
+
+#two
+{
+	width: 90%;
+	/*animation*/
+	-webkit-animation: two 4s ease-in-out infinite alternate;
+	-moz-animation: two 4s ease-in-out infinite alternate;
+	-ms-animation: two 4s ease-in-out infinite alternate;
+	-o-animation: two 4s ease-in-out infinite alternate;
+	animation: two 4s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+two { from {
+-webkit-box-shadow: 0 0 250px 20px #18C499;
+}
+
+to { -webkit-box-shadow: 0 0 100px 15px #D8F05E; }
+}
+@-moz-keyframes 
+two { from {
+-moz-box-shadow: 0 0 250px 20px #18C499;
+}
+
+to { -moz-box-shadow: 0 0 100px 15px #D8F05E; }
+}
+@-o-keyframes 
+two { from {
+-o-box-shadow: 0 0 250px 20px #18C499;
+}
+
+to { -o-box-shadow: 0 0 100px 15px #D8F05E; }
+}
+
+@keyframes 
+two { from {
+box-shadow: 0 0 250px 20px #18C499;
+}
+
+to { box-shadow: 0 0 100px 15px #D8F05E; }
+}
+
+#three
+{
+	width: 80%;
+	/*animation*/
+	-webkit-animation: three 3s ease-in-out infinite alternate;
+	-moz-animation: three 3s ease-in-out infinite alternate;
+	-ms-animation: three 3s ease-in-out infinite alternate;
+	-o-animation: three 3s ease-in-out infinite alternate;
+	animation: three 3s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+three { from {
+-webkit-box-shadow: 0 0 250px 20px #FFDD00;
+}
+
+to { -webkit-box-shadow: 0 0 100px 15px #3E33FF; }
+}
+@-moz-keyframes 
+three { from {
+-moz-box-shadow: 0 0 250px 20px #FFDD00;
+}
+
+to { -moz-box-shadow: 0 0 100px 15px #3E33FF }
+}
+@-o-keyframes 
+three { from {
+-o-box-shadow: 0 0 250px 20px #FFDD00;
+}
+
+to { -o-box-shadow: 0 0 100px 15px #3E33FF }
+}
+
+@keyframes 
+three { from {
+box-shadow: 0 0 250px 20px #FFDD00;
+}
+
+to { box-shadow: 0 0 100px 15px #3E33FF }
+}
+
+#four
+{
+	width: 70%;
+	/*animation*/
+	-webkit-animation: four 2s ease-in-out infinite alternate;
+	-moz-animation: four 2s ease-in-out infinite alternate;
+	-ms-animation: four 2s ease-in-out infinite alternate;
+	-o-animation: four 2s ease-in-out infinite alternate;
+	animation: four 2s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+four { from {
+-webkit-box-shadow: 0 0 250px 20px #781848;
+}
+
+to { -webkit-box-shadow: 0 0 100px 15px #F2BBE9; }
+}
+@-moz-keyframes 
+four { from {
+-moz-box-shadow: 0 0 250px 20px #781848;
+}
+
+to { -moz-box-shadow: 0 0 100px 15px #F2BBE9; }
+}
+@-o-keyframes 
+four { from {
+-o-box-shadow: 0 0 250px 20px #781848;
+}
+
+to { -o-box-shadow: 0 0 100px 15px #F2BBE9; }
+}
+
+@keyframes 
+four { from {
+shadow: 0 0 250px 20px #781848;
+}
+
+to { shadow: 0 0 100px 15px #F2BBE9; }
+}
+
+#five
+{
+	width: 60%;
+	/*animation*/
+	-webkit-animation: five 1s ease-in-out infinite alternate;
+	-moz-animation: five 1s ease-in-out infinite alternate;
+	-ms-animation: five 1s ease-in-out infinite alternate;
+	-o-animation: five 1s ease-in-out infinite alternate;
+	animation: five 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes 
+five { from {
+-webkit-box-shadow: 0 0 250px 20px #42F2A1;
+}
+
+to { -webkit-box-shadow: 0 0 100px 15px #F4F6AD; }
+}
+@-moz-keyframes 
+five { from {
+-moz-box-shadow: 0 0 250px 20px #42F2A1;
+}
+
+to { -moz-box-shadow: 0 0 100px 15px #F4F6AD; }
+}
+@-o-keyframes 
+five { from {
+-o-box-shadow: 0 0 250px 20px #42F2A1;
+}
+
+to { -o-box-shadow: 0 0 100px 15px #F4F6AD; }
+}
+
+@keyframes 
+five { from {
+box-shadow: 0 0 250px 20px #42F2A1;
+}
+
+to { box-shadow: 0 0 100px 15px #F4F6AD; }
+}
+
+
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: left;
+  margin-top: auto;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: "Lexend Giga", serif;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin: 10px 0;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Social Links */
+.social-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #444;
+  padding-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #bbb;
 }

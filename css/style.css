@@ -32,7 +32,7 @@ img {
   border-radius: 50%;
   width: 500px;
   height: 500px;
-  background: url(/Space_Web/img/moon.jpg);
+  background: url(/img/moon.jpg);
   background-repeat: repeat-x;
   background-size: cover;
   animation: moon-rotation 90s linear infinite;
